@@ -1,15 +1,10 @@
-import html from 'rollup-plugin-html';
+const html = require('@rollup/plugin-html');
 
-export default {
-  input: './src/index.js',
+module.exports = {
+  input: 'src/index.js',
   output: {
-    file: './bundle/bundle.js',
+    dir: './bundle',
     format: 'iife',
   },
-  plugins: [
-    html({
-      template: './src/index.html',
-      dest: './bundle',
-    }),
-  ],
+  plugins: [html()],
 };
