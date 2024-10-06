@@ -1,0 +1,19 @@
+{
+  "name": "hw",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "live-server",
+    "build": "rollup -c",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "bulka",
+  "license": "ISC",
+  "devDependencies": {
+    "live-server": "^1.2.0",
+    "rollup": "^4.24.0",
+    "rollup-plugin-html": "^0.2.1"
+  }
+}
