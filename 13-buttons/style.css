@@ -1,0 +1,38 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.count {
+    margin: 0 auto;
+    padding: 50px;
+    font-size: 24px;
+}
+
+.buttons_wrapper {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    gap: 10px;
+}
+
+.button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    cursor: pointer;
+    background: none;
+}
+
+.button:hover {
+    background: rgba(244, 243, 243, 0.452)
+}
+
+.active {
+    background: yellow;
+}
+
+.active:hover {
+    background: rgb(147, 147, 5);
+}
